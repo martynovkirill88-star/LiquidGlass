@@ -10,9 +10,10 @@ targets:
     sources:
       - path: LiquidGlassApp.swift
       - path: ContentView.swift
-      - path: LaunchScreen.storyboard
     info:
       path: Info.plist
+      properties:
+        UILaunchScreen: {}
     settings:
       PRODUCT_BUNDLE_IDENTIFIER: com.liquidglass.app
       INFOPLIST_FILE: Info.plist
