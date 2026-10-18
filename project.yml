@@ -1,7 +1,6 @@
 name: LiquidGlass
 options:
   bundleIdPrefix: com.liquidglass
-  xcodeVersion: "15.0"
   deploymentTarget:
     iOS: "16.0"
 targets:
@@ -11,6 +10,7 @@ targets:
     sources:
       - path: LiquidGlassApp.swift
       - path: ContentView.swift
+      - path: LaunchScreen.storyboard
     info:
       path: Info.plist
     settings:
