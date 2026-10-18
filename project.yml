@@ -1,0 +1,20 @@
+name: LiquidGlass
+options:
+  bundleIdPrefix: com.liquidglass
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  LiquidGlass:
+    type: application
+    platform: iOS
+    sources:
+      - path: LiquidGlassApp.swift
+      - path: ContentView.swift
+    info:
+      path: Info.plist
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.liquidglass.app
+      INFOPLIST_FILE: Info.plist
+      GENERATE_INFOPLIST_FILE: NO
+      SWIFT_VERSION: "5.0"
+      CODE_SIGNING_ALLOWED: NO
